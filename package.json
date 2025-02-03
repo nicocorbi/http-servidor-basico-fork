@@ -1,0 +1,23 @@
+{
+  "name": "http-servidor-basico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gist.github.com/336d30604685fe4def0d184906792235.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/336d30604685fe4def0d184906792235"
+  },
+  "homepage": "https://gist.github.com/336d30604685fe4def0d184906792235",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
