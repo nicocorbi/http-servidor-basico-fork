@@ -14,9 +14,9 @@
     <script>       
         fetch("/users")
             .then(response => response.json())
-            .then(createTable => {
+            .then(tr,item => {
                 console.log(item);  // Verifica la respuesta en la consola
-                let table = createTable(createTable);
+                let table = createTable(tr,item);
                 document.getElementById("tabla-container").appendChild(table);
             })
             
